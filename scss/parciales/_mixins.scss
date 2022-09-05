@@ -1,0 +1,29 @@
+@mixin logos {
+    font-size: 35px;
+    text-decoration: none;
+}
+
+@mixin positionabsolute () {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+@mixin posiciontitilo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+@mixin styloenlaces () {
+    text-decoration: none;
+    color: white;
+}
+
+@mixin img {
+    width: 200px;
+
+}

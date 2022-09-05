@@ -1,0 +1,596 @@
+@media screen and (max-width:1023px) {
+    //.....pagina de productos....//
+
+    .productos__seccion-1 {
+        grid-template-columns: repeat(3, 220px);
+        grid-template-rows: repeat(4, 400px);
+
+    }
+
+
+
+    .pagina__productos-img {
+        width: 170px;
+        height: 170px;
+    }
+
+    // .....pagina de ofertas//
+    .seccion__ofertas-contenido {
+        grid-template-columns: repeat(2, 300px);
+        grid-template-rows: repeat(6, 500px);
+    }
+
+    .parrafo__sobrenosotros {
+        font-size: 16px;
+    }
+
+    .sobrenosotros__seccion3-img {
+        width: 800px;
+        height: 400px;
+    }
+
+    .parrafo__seccion3 {
+        font-size: 16px;
+        max-width: 800px;
+    }
+
+    .img__sobrenosotros2-contenido {
+        width: 300px;
+
+    }
+
+    .republicgamers {
+        font-size: 60px !important;
+    }
+
+    .video__px {
+        width: 700px !important;
+        height: 500px;
+    }
+    .enviar{
+        padding-top: 3rem;
+    }
+   
+}
+
+@media screen and (max-width:991px) {
+    .menu__barra {
+        gap: 0;
+    }
+
+    .navbar-toggler {
+        color: white;
+    }
+    .seccion__faq {
+        max-width: 800px;
+    }
+
+}
+
+//............. versiontablet.................//
+@media screen and (max-width:1023px) {
+    .stilo__enlace {
+        font-size: 14px;
+    }
+
+    .seccion__productos-1 {
+        height: 250px !important;
+    }
+
+    .prod__img {
+        width: 100%;
+        max-width: 160px !important;
+        height: 150px !important;
+    }
+
+    .mini__logos {
+        width: 70px !important;
+    }
+
+    .logos__inicio {
+        padding-top: 120px !important;
+    }
+
+    .focus-in-contract {
+        font-size: 28px;
+    }
+
+    .seccion2__info-productos {
+        text-align: center;
+        width: 200px;
+
+        .seccion2__productos-img {
+            width: 150px;
+        }
+
+        .seccion2__icono-productos {
+            width: 160px;
+            font-size: 13px;
+        }
+    }
+
+    .seccion2__presentacion-img {
+        width: 800px;
+    }
+
+    .seccion__info-productos3 {
+        width: 200px;
+    }
+
+    .seccion3__productos-img {
+        width: 180px;
+    }
+
+    .seccion__contenido-productos3 {
+        justify-items: center;
+        width: 100%;
+        display: flex;
+    }
+
+    .seccion3__icono-productos {
+        width: 160px;
+        font-size: 13px;
+    }
+
+    .novedades {
+        height: 170px;
+    }
+
+    .recibi__novedades {
+        font-size: 25px;
+    }
+
+    .form__footer {
+        height: 20px;
+    }
+
+    .boton__enviar {
+        height: 40px;
+    }
+
+
+}
+
+@media screen and (max-width:768px) {
+
+    // .....pagina productos.....//
+    .productos__seccion-1 {
+        grid-template-columns: repeat(2, 250px);
+        grid-template-rows: repeat(10, 400px);
+
+    }
+
+    .pagina__productos-img {
+        width: 170px;
+        height: 170px;
+    }
+
+    .pag__productos-seccion1 {
+        height: 2800px;
+    }
+
+
+    .precio {
+        font-size: 20px;
+    }
+
+    // ...pagina de ofertas....//
+    .presentacion__oferta-img {
+        overflow: hidden;
+    }
+
+    .oferta__logo-img {
+        width: 130px;
+        object-fit: cover;
+        height: 130px;
+
+    }
+
+
+
+    .img__ofertas {
+
+        height: 250px;
+    }
+
+    .video__px {
+        width: 500px !important;
+        height: 400px;
+    }
+
+    .contenido__sobrenosotros {
+        display: block;
+
+    }
+
+    .parrafo__sobrenosotros {
+        width: 100% !important;
+        grid-area: img2;
+        padding-left: 0;
+        max-width: 600px;
+    }
+
+    .img__sobrenosotros2 {
+        grid-area: img1;
+        width: 100%;
+
+    }
+
+    .contenido__sobrenosotros {
+        display: grid;
+        grid-template-areas:
+            "img1"
+            "img2";
+        justify-content: center;
+    }
+
+    .img__sobrenosotros2-contenido {
+        width: 600px !important;
+        height: 300px;
+    }
+    .titulo1__ofertas{
+        font-size: 30px !important;
+    }
+    .titulo2__oferta{
+        font-size: 40px !important;
+    }
+}
+
+// .........version mobile.........//}
+@media screen and (max-width:800px) {
+    .buscador {
+        display: none !important;
+    }
+
+    .logo {
+        width: 100px !important;
+    }
+
+    .img__presentacion {
+        height: 200px;
+    }
+
+    .jam-user {
+        font-size: 30px;
+    }
+
+    .seccion__mejores-marcas {
+        height: 500px;
+    }
+
+    .seccion__productos-1 {
+        display: grid !important;
+        grid-template-columns: repeat(3, 160px);
+        grid-template-rows: repeat(2, auto);
+        gap: 20px;
+    }
+
+    .seccion__contenido-prodcuctos {
+        display: grid !important;
+        justify-content: center;
+        grid-template-columns: repeat(2, auto);
+        gap: 20px;
+    }
+
+    .seccion2__presentacion-img {
+        width: 600px;
+        object-fit: contain;
+    }
+
+    .seccion__contenido-productos3 {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        gap: 20px;
+    }
+
+    .oferta__logo-img {
+        width: 100px;
+        object-fit: cover;
+        height: 100px;
+
+    }
+
+    // ...pagina sobrenosotros...//
+    .sobrenosotros__seccion3-img {
+        width: 600px;
+        height: 400px;
+
+    }
+
+    .parrafo__seccion3 {
+        max-width: 600px;
+    }
+
+    .img__sobrenosotros2-contenido {
+        width: 250px;
+
+    }
+
+    .republicgamers {
+        font-size: 50px !important;
+    }
+
+    
+}
+
+//........version mobile.......//
+@media screen and (max-width:599px) {
+    .logo {
+        width: 90px;
+        height: 90px !important;
+    }
+
+    .img__presentacion {
+        height: 150px;
+    }
+
+    .seccion__productos-1 {
+        display: grid !important;
+        grid-template-columns: repeat(2, 160px);
+        grid-template-rows: repeat(3, auto);
+        gap: 20px;
+
+    }
+
+    .seccion__mejores-marcas {
+        height: 800px;
+    }
+
+    .seccion2__presentacion-img {
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .img__sobrenosotros2-contenido {
+        width: 400px !important;
+        height: 300px;
+    }
+
+    .parrafo__seccion3 {
+        max-width: 450px;
+    }
+
+    .contenido__sobrenosotros {}
+
+    .parrafo__sobrenosotros {
+        max-width: 450px;
+    }
+}
+
+@media screen and (max-width:568px) {
+    .productos__seccion-1 {
+        grid-template-columns: repeat(1, 400px);
+        grid-template-rows: repeat(12, auto);
+
+    }
+
+    .pagina__productos-img {
+        width: 150px;
+    }
+
+    .seccion__productos-contenido {
+        grid-template-areas:
+            "item1 item2 "
+            "item1 item3"
+            "item1 item4"
+            "item1 item5";
+    }
+
+    .pagina__productos-img {
+        grid-area: item1;
+    }
+
+    .caja__titulos {
+        grid-area: item2;
+        height: auto;
+    }
+
+    .seccion3__iconos {
+        grid-area: item3;
+    }
+
+    .precio__productos {
+        grid-area: item4;
+        font-size: 18px;
+    }
+
+    .boton__productos {
+        grid-area: item5;
+
+    }
+
+    .seccion__ofertas-contenido {
+        grid-template-columns: repeat(1, 300px) !important;
+        grid-template-rows: repeat(12, auto);
+
+    }
+
+    .video__px {
+        width: 400px !important;
+        height: 300px;
+    }
+
+    .parrafo__sobrenosotros {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .img__presentacion {
+        height: 180px;
+    }
+
+    .seccion__contenido-prodcuctos {
+        display: grid !important;
+        justify-content: center;
+        grid-template-columns: repeat(2, 160px);
+        gap: 20px;
+    }
+
+    .seccion2__productos-img {
+        width: 100px !important;
+    }
+
+    .seccion2__info-productos {
+        width: 170px;
+
+    }
+
+    .precio {
+        font-size: 19px !important;
+    }
+
+    .btn {
+        font-size: 13px !important;
+    }
+
+    .seccion3__productos-img {
+        width: 120px !important;
+    }
+
+    .seccion2__icono-productos {
+        font-size: 12px !important;
+        width: 150px !important;
+    }
+
+    .seccion__contenido-productos3 {
+        display: grid;
+        grid-template-columns: repeat(2, 160px);
+        grid-template-rows: repeat(2, 330px);
+        gap: 20px;
+    }
+
+    .seccion__info-productos3 {
+        width: 170px;
+    }
+
+
+
+    .productos__seccion-1 {
+        grid-template-columns: repeat(1, 320px);
+        grid-template-rows: repeat(12, auto);
+
+    }
+
+    .pagina__productos-img {
+        width: 150px;
+        height: 130px;
+    }
+
+    .seccion3__iconos {
+        font-size: 10px;
+        width: auto;
+
+    }
+
+    .caja__titulos {
+        height: auto;
+
+    }
+
+    .seccion__productos-contenido {
+        align-items: center;
+    }
+
+    .precio__productos {
+        font-size: 16px;
+    }
+
+    .img__sobrenosotros2-contenido {
+        width: 320px !important;
+        height: 200px;
+    }
+
+    .sobrenosotros__seccion3-img {
+        width: 320px !important;
+    }
+
+    .parrafo__seccion3 {
+        font-size: 13px;
+    }
+
+    .parrafo__seccion3 {
+        max-width: 320px;
+    }
+
+    .video__px {
+        width: 320px !important;
+    }
+
+    .republicgamers {
+
+        text-align: center;
+    }
+
+    .parrafo__sobrenosotros {
+        max-width: 320px;
+    }
+    .logo__pagos{
+        flex-direction: column;
+        
+        width: 100%;
+        justify-items: center;
+    }
+    .logo__titulo{
+       width: 200px !important;
+       padding-left: 60px;
+    }
+    
+    .titulo1__ofertas{
+        font-size: 25px !important;
+    }
+    .titulo2__oferta{
+        font-size: 35px !important;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .logo__ubi {
+        margin-left: 0;
+    }
+
+    .video__px {
+        width: 1000px;
+    }
+
+    .seccion__faq {
+        max-width: 1023px !important;
+    }
+}
+
+@media screen and (max-width:678px) {
+    .seccion__logos-ofertas {
+        display: none;
+    }
+
+    .seccion__ofertas-contenido {
+        grid-template-columns: repeat(2, 250px);
+        grid-template-rows: repeat(6, auto);
+
+    }
+
+    .img__ofertas-seccion {
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .oferta__productos {
+        display: grid;
+        justify-items: center;
+    }
+
+    .republicgamers {
+        font-size: 40px !important;
+    }
+
+    .sobrenosotros__seccion3-img {
+        width: 425px;
+        height: 300px;
+    }
+
+    .parrafo__seccion3 {
+        font-size: 14px;
+    }
+
+}

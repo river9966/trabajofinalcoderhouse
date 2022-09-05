@@ -1,0 +1,107 @@
+.img__ofertas {
+    width: 450px;
+    height: 300px;
+}
+
+.img__ofertas-seccion {
+    width: 250px;
+
+}
+.precio__oferta{
+    font-size: 20px;
+}
+.titulo__ofertas {
+    @include posiciontitilo;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    .titulo1__ofertas{
+        font-size: 40px;
+    }
+}
+
+.seccion__ofertas {
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+.presentacion__oferta {
+    display: flex;
+    justify-content: center;
+
+    .presentacion__oferta-img {
+        width: 1500px;
+        height: 300px;
+        
+    }
+}
+
+.seccion__ofertas-contenido {
+
+    gap: 20px;
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(4, auto);
+
+}
+
+.oferta__productos {
+    background-color: white;
+    text-align: center;
+    display: grid;
+   
+    justify-items: center;
+    position: relative;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.etiqueta__oferta{
+    background-color: black;
+    color: green;
+    width: 100px;
+    height: 35px;
+    position: absolute;
+    right: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: inherit;
+}
+
+.icono__oferta {
+    border: 1px solid rgb(179, 171, 171);
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 200px;
+    
+}
+
+.ofertas__imperdibles-titulo {
+    @include posiciontitilo;
+    color: rgb(32, 30, 30);
+    height: 200px;
+
+    .titulo2__oferta {
+        font-size: 50px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+}
+.oferta__logo-img{
+    width: 130px;
+    object-fit: cover;
+    height: 130px;
+    
+}
+.seccion__logos-ofertas{
+    display: flex;
+    justify-content: center ;
+    
+
+}
+.logo__ubi{
+    display: flex  !important;
+    margin-left: 70px;
+    
+}
+.boton__oferta{
+    padding-bottom: 10px;
+}

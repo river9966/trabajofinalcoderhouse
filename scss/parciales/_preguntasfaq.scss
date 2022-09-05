@@ -1,0 +1,21 @@
+.faq {
+    
+    width: 100%;
+    display: grid;
+    justify-content: center;
+
+    .seccion__faq {
+        width: 100%;
+        max-width: 1200px;
+    }
+
+}
+
+.titulo_faq{
+    color: green;
+    font-size: 20px;
+}
+
+.grid__productos{
+    width: 250px;
+}
